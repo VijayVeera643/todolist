@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.todoApp-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    background-color: white;
+}
+
+.addlistItemInputField {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    height: 50px;
+}
+
+.createButton {
+    background-color: rgb(115, 178, 250);
+    width: 100px;
+    font-size: 20px;
+}
+
+.listItems-Of-Headings {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.inputField {
+    width: 300px;
+    height: 50px;
+}
+
+.listItemsHeading-Todolist {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.listItemsHeading-processing {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.listItemsHeading-closed {
+    background-color: rgb(78, 201, 78);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+}
+ul {
+    height: 350px;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.list-Items {
+    background-color: rgb(255, 253, 253);
+    box-shadow: 0px 2px 3px rgb(201, 185, 185), -1px 2px 1px rgb(201, 185, 185), 1px 2px 2px rgb(201, 185, 185), 0px 0px 0px 0px white; 
+    width: 290px;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.delete-Icon {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.Edit-Icon{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.Update-Icon{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.listItems-TodoContainer, .listItems-processingContainer, .listItems-ClosedContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px; 
+}
+.list-content{
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.unorder-list{
+    width: 300px;
+    overflow-y: 300px;
+}
